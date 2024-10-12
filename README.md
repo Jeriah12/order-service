@@ -1,6 +1,6 @@
-# Order Service
+# order-service
 
-The **Order Service** manages the shopping cart, order placement, and order tracking functionalities within the e-commerce platform.
+The **order-service** manages the shopping cart, order placement, and order tracking functionalities within the e-commerce platform.
 
 ## Table of Contents
 
