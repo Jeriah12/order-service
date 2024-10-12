@@ -1,6 +1,6 @@
 # Order Service
 
-The **Order Service ** manages the shopping cart, order placement, and order tracking functionalities within the e-commerce platform.
+The **Order Service** manages the shopping cart, order placement, and order tracking functionalities within the e-commerce platform.
 
 ## Table of Contents
 
@@ -49,6 +49,7 @@ cd order-service
 
 ```bash
 mvn clean install
+```
 
 3. ***Environment Variables:***
 
