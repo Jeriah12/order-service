@@ -82,6 +82,21 @@ The service should now be accessible at http://localhost:8080
 **Create a new order**
 * Endpoint: POST /api/v1/orders
 * Description: Places a new order.
+  ```
+  {
+  "userId": "user123",
+  "products": [
+    {
+      "productId": "product456",
+      "quantity": 2
+    },
+    {
+      "productId": "product789",
+      "quantity": 1
+    }
+  ]
+}
+```
   
 **Get order by ID** 
 * Endpoint: GET /api/v1/orders/{order_id}
