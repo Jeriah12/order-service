@@ -80,7 +80,7 @@ The service should now be accessible at http://localhost:8080
 ## API Endpoints
 
 **Create a new order**
-* Endpoint: POST /api/v1/orders
+* Endpoint: POST /api/orders
 * Description: Places a new order.
   ```bash
   {
@@ -99,18 +99,18 @@ The service should now be accessible at http://localhost:8080
   ```
   
 **Get order by ID** 
-* Endpoint: GET /api/v1/orders/{order_id}
+* Endpoint: GET /api/orders/{order_id}
 
 **Get order by User ID** 
-* Endpoint: GET /api/v1/orders/{userid}
+* Endpoint: GET /api/orders/{userid}
 
 * Description: Retrieves order details.
   
 **Update Order**
-* Endpoint: PUT http://localhost:3001/api/orders/{id}
+* Endpoint: PUT http://localhost:3001/orders/{id}
   
 **Delete Order**
-* Endpoint: DELETE http://localhost:3001/api/orders/{id}
+* Endpoint: DELETE http://localhost:3001/orders/{id}
   
 ## Testing
 Run unit tests using:
