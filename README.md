@@ -100,6 +100,9 @@ The service should now be accessible at http://localhost:8080
   
 **Get order by ID** 
 * Endpoint: GET /api/v1/orders/{order_id}
+  ```bash
+  http://localhost:3001/api/orders/{id}
+  ```
 * Description: Retrieves order details.
   
 ## Testing
