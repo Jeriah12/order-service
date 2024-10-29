@@ -82,8 +82,7 @@ The service should now be accessible at http://localhost:8080
 **Create a new order**
 * Endpoint: POST /api/v1/orders
 * Description: Places a new order.
-  ```
-  bash
+  ```bash
   {
   "userId": "user123",
   "products": [
@@ -97,7 +96,6 @@ The service should now be accessible at http://localhost:8080
     }
   ]
 }
-
 ```
   
 **Get order by ID** 
