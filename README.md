@@ -100,10 +100,17 @@ The service should now be accessible at http://localhost:8080
   
 **Get order by ID** 
 * Endpoint: GET /api/v1/orders/{order_id}
-  ```bash
-  http://localhost:3001/api/orders/{id}
-  ```
+
+**Get order by User ID** 
+* Endpoint: GET /api/v1/orders/{userid}
+
 * Description: Retrieves order details.
+  
+**Update Order**
+* Endpoint: PUT http://localhost:3001/api/orders/{id}
+  
+**Delete Order**
+* Endpoint: DELETE http://localhost:3001/api/orders/{id}
   
 ## Testing
 Run unit tests using:
