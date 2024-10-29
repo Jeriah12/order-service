@@ -109,7 +109,7 @@ The service should now be accessible at http://localhost:8080
 ```bash
   {
   "status": "Shipped"
-}
+  }
 ```
   
 **Delete Order**
