@@ -103,8 +103,6 @@ The service should now be accessible at http://localhost:8080
 
 **Get order by User ID** 
 * Endpoint: GET /api/orders/{userid}
-
-* Description: Retrieves order details.
   
 **Update Order**
 * Endpoint: PUT http://localhost:3001/orders/{id}
