@@ -96,8 +96,6 @@ The service should now be accessible at http://localhost:8080
     }
   ]
 }
-
-
 ```
   
 **Get order by ID** 
