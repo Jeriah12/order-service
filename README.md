@@ -94,9 +94,9 @@ The service should now be accessible at http://localhost:8080
       "productId": "product789",
       "quantity": 1
     }
-  ]
-}
-```
+   ]
+  }
+  ```
   
 **Get order by ID** 
 * Endpoint: GET /api/v1/orders/{order_id}
