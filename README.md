@@ -105,10 +105,15 @@ The service should now be accessible at http://localhost:8080
 * Endpoint: GET /api/orders/{userid}
   
 **Update Order**
-* Endpoint: PUT http://localhost:3001/orders/{id}
+* Endpoint: PUT /orders/{id}
+```bash
+  {
+  "status": "Shipped"
+}
+```
   
 **Delete Order**
-* Endpoint: DELETE http://localhost:3001/orders/{id}
+* Endpoint: DELETE /orders/{id}
   
 ## Testing
 Run unit tests using:
