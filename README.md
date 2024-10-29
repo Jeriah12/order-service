@@ -83,6 +83,7 @@ The service should now be accessible at http://localhost:8080
 * Endpoint: POST /api/v1/orders
 * Description: Places a new order.
   ```
+  bash
   {
   "userId": "user123",
   "products": [
